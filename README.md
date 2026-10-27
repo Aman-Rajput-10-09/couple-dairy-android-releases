@@ -4,11 +4,11 @@ Official production distribution repository for **Couple Diary** on Android.
 
 ---
 
-## 🚀 Latest Release: `v1.6.0`
+## 🚀 Latest Release: `v1.7.0`
 
 - **Filename**: [`app-release.apk`](./app-release.apk)
-- **Version Name**: `1.6.0`
-- **Version Code**: `17`
+- **Version Name**: `1.7.0`
+- **Version Code**: `18`
 - **Package Status**: Signed & Production Ready
 
 ---
@@ -17,7 +17,7 @@ Official production distribution repository for **Couple Diary** on Android.
 
 Choose either link to download directly to your Android device:
 
-1. **[Direct GitHub Release Asset Download (Recommended)](https://github.com/Aman-Rajput-10-09/couple-dairy-android-releases/releases/download/v1.6.0/app-release.apk)**
+1. **[Direct GitHub Release Asset Download (Recommended)](https://github.com/Aman-Rajput-10-09/couple-dairy-android-releases/releases/download/v1.7.0/app-release.apk)**
 2. **[Direct Raw Repository Download](https://github.com/Aman-Rajput-10-09/couple-dairy-android-releases/raw/main/app-release.apk)**
 
 ---
@@ -31,18 +31,27 @@ Choose either link to download directly to your Android device:
 
 ---
 
-## ✨ What's New in Version 1.6.0
+## ✨ What's New in Version 1.7.0
 
-- 🔐 **Biometric Phone Lock (Fingerprint & Face Lock)**:
-  - Secure your diary and private chats with native Android Biometrics (Fingerprint / Face Recognition).
-  - Works alongside PIN lock with automatic prompt upon app launch or app resume from background.
-  - Supports decoy PIN camouflage defense while enabling seamless instant unlocking for device owners.
-- ⚡ **0ms Instant Chat & Silent Real-Time Sync**:
-  - Eliminated chat sluggishness with optimistic 0ms message delivery for text, stickers, and voice notes.
-  - Added continuous 2.5s silent background polling loop without screen flicker or full-screen loading spinners.
-  - Database queries indexed (`idx_cd_couple_chat_desc`, `idx_cd_chat_read`) and push notifications sent asynchronously.
-- 🎮 **Public vs Private Game Option**:
-  - When creating a game or question, choose whether to post **🌍 Public** (to community feed with category tags) or **🔒 Private** (directly into private couple chat with partner).
-  - Quick "+ Compose New Private Game 💕" action added directly into the chat share menu.
-- 💕 **18 New Romantic Public Games**:
-  - Added 18 new deep, romantic, and playful questions to Neon PostgreSQL database and public feed.
+- 🏆 **Couple League & Dynamic XP System**:
+  - Unified couple progression — both partners earn XP together to advance your couple rank.
+  - 6 Prestigious Leagues: *Initiate*, *Vanguard*, *Eclipse*, *Apex*, *Sovereign*, and *Immortal*.
+  - Weekly Top 10 Leaderboard for your current league + Global Legends leaderboard.
+  - Active couple streaks and interactive progress journey.
+
+- 🛡️ **Anti-Screenshot & Privacy Shield**:
+  - New built-in privacy protection shield blocking screenshots, screen recording, and app switcher preview.
+  - Biometric authentication (fingerprint / face unlock) now strictly optional and only activates when enabled in settings.
+
+- 📸 **Temptation Lock Tease Challenges**:
+  - Share intimate blurred tease photos with a custom unlock task or confession for your partner.
+  - Includes a 2-second hold-to-peek feature with heartbeat haptic feedback. Fullscreen view unlocks only when the challenge is completed!
+  - Ability to delete your photos or challenges at any time.
+
+- 🎴 **Secret Desires (Fantasy Roulette Cards)**:
+  - Intimate couple card game with private 3-way double-blind voting (*Must Do*, *Curious*, *Pass*).
+  - Mutual desires unlock seamlessly in chat with zero awkwardness or rejection.
+  - Create custom private cards for your partner or explore public cards.
+
+- 🎨 **6 Aesthetic Themes**:
+  - Customize your look with 6 themes: *Black Glassy*, *Plain Black*, *White*, *Gray Glassy*, *Glassy White*, and *Amber Glassy*.
