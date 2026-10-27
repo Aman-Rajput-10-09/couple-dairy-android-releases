@@ -4,11 +4,11 @@ Official production distribution repository for **Couple Diary** on Android.
 
 ---
 
-## 🚀 Latest Release: `v1.7.3`
+## 🚀 Latest Release: `v1.7.4`
 
 - **Filename**: [`app-release.apk`](./app-release.apk)
-- **Version Name**: `1.7.3`
-- **Version Code**: `21`
+- **Version Name**: `1.7.4`
+- **Version Code**: `22`
 - **Package Status**: Signed & Production Ready
 
 ---
@@ -17,7 +17,7 @@ Official production distribution repository for **Couple Diary** on Android.
 
 Choose either link to download directly to your Android device:
 
-1. **[Direct GitHub Release Asset Download (Recommended)](https://github.com/Aman-Rajput-10-09/couple-dairy-android-releases/releases/download/v1.7.3/app-release.apk)**
+1. **[Direct GitHub Release Asset Download (Recommended)](https://github.com/Aman-Rajput-10-09/couple-dairy-android-releases/releases/download/v1.7.4/app-release.apk)**
 2. **[Direct Raw Repository Download](https://github.com/Aman-Rajput-10-09/couple-dairy-android-releases/raw/main/app-release.apk)**
 
 ---
@@ -31,16 +31,16 @@ Choose either link to download directly to your Android device:
 
 ---
 
-## ✨ What's New in Version 1.7.3
+## ✨ What's New in Version 1.7.4
 
-- ⚡ **Snapchat-Style Chat Experience**:
-  - Send messages instantly using the keypad **Enter** key.
-  - Sleek chat bar with text input board on the left and neatly adjusted action icons on the right.
-  - Dedicated **Games Launcher** (`🎮`) button positioned next to stickers and voice notes.
+- ⚡ **Sub-Second Real-Time Chat Engine**:
+  - Ultra-fast micro-delta sync queries messages in under 20ms with sub-second delivery.
+  - Zero UI stuttering and smooth instant conversation flow between partners.
 
-- 📸 **Photo Challenge Partner Proof Delivery**:
-  - Partner can pick their proof photo directly from their device gallery.
-  - Proof photo automatically renders in full clarity inside the unlocked challenge bubble and in the chat stream with full-screen viewer support.
+- 🔔 **Instant Notification Message Pre-Loading**:
+  - Chat messages are automatically pre-cached locally the moment partner notifications arrive.
+  - Tapping a notification opens the conversation instantly with zero loading delay.
 
-- 🧼 **Clean Game Chat Stream**:
-  - Removed feed scrolling inside the game chat sheet so you can compose and send private games, photo challenges, and couple cards directly.
+- 🚀 **Server Performance & Data Optimization**:
+  - Over 95% reduction in network payload by syncing only new message deltas instead of full chat feeds.
+  - Significant battery and data savings on cellular connections.
