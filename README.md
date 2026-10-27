@@ -4,11 +4,11 @@ Official production distribution repository for **Couple Diary** on Android.
 
 ---
 
-## 🚀 Latest Release: `v1.7.4`
+## 🚀 Latest Release: `v1.7.5`
 
 - **Filename**: [`app-release.apk`](./app-release.apk)
-- **Version Name**: `1.7.4`
-- **Version Code**: `22`
+- **Version Name**: `1.7.5`
+- **Version Code**: `23`
 - **Package Status**: Signed & Production Ready
 
 ---
@@ -17,7 +17,7 @@ Official production distribution repository for **Couple Diary** on Android.
 
 Choose either link to download directly to your Android device:
 
-1. **[Direct GitHub Release Asset Download (Recommended)](https://github.com/Aman-Rajput-10-09/couple-dairy-android-releases/releases/download/v1.7.4/app-release.apk)**
+1. **[Direct GitHub Release Asset Download (Recommended)](https://github.com/Aman-Rajput-10-09/couple-dairy-android-releases/releases/download/v1.7.5/app-release.apk)**
 2. **[Direct Raw Repository Download](https://github.com/Aman-Rajput-10-09/couple-dairy-android-releases/raw/main/app-release.apk)**
 
 ---
@@ -31,16 +31,14 @@ Choose either link to download directly to your Android device:
 
 ---
 
-## ✨ What's New in Version 1.7.4
+## ✨ What's New in Version 1.7.5
 
-- ⚡ **Sub-Second Real-Time Chat Engine**:
-  - Ultra-fast micro-delta sync queries messages in under 20ms with sub-second delivery.
-  - Zero UI stuttering and smooth instant conversation flow between partners.
+- 🫧 **Buttery-Soft Chat Experience & Zero Duplication**:
+  - In-place optimistic resolution with clientTempId matching: completely eliminates duplicate message popping, flickering, and screen jumping.
+  - Zero-lag instant send with seamless resolution when server and sync acknowledge the message.
 
-- 🔔 **Instant Notification Message Pre-Loading**:
-  - Chat messages are automatically pre-cached locally the moment partner notifications arrive.
-  - Tapping a notification opens the conversation instantly with zero loading delay.
+- 🌊 **Fluid Spring Motion Animations**:
+  - Native Jetpack Compose physics-based spring animation (`animateItem`) on message bubbles for ultra-soft insertion, deletion, and layout glides.
 
-- 🚀 **Server Performance & Data Optimization**:
-  - Over 95% reduction in network payload by syncing only new message deltas instead of full chat feeds.
-  - Significant battery and data savings on cellular connections.
+- ⏱️ **Soft Delivery Indicators**:
+  - Soft sending clock indicator (`🕒`) that gently transitions into delivered single checkmark (`✓`) and seen cyan double checkmarks (`✓✓`).
