@@ -4,11 +4,11 @@ Official production distribution repository for **Couple Diary** on Android.
 
 ---
 
-## 🚀 Latest Release: `v1.7.2`
+## 🚀 Latest Release: `v1.7.3`
 
 - **Filename**: [`app-release.apk`](./app-release.apk)
-- **Version Name**: `1.7.2`
-- **Version Code**: `20`
+- **Version Name**: `1.7.3`
+- **Version Code**: `21`
 - **Package Status**: Signed & Production Ready
 
 ---
@@ -17,7 +17,7 @@ Official production distribution repository for **Couple Diary** on Android.
 
 Choose either link to download directly to your Android device:
 
-1. **[Direct GitHub Release Asset Download (Recommended)](https://github.com/Aman-Rajput-10-09/couple-dairy-android-releases/releases/download/v1.7.2/app-release.apk)**
+1. **[Direct GitHub Release Asset Download (Recommended)](https://github.com/Aman-Rajput-10-09/couple-dairy-android-releases/releases/download/v1.7.3/app-release.apk)**
 2. **[Direct Raw Repository Download](https://github.com/Aman-Rajput-10-09/couple-dairy-android-releases/raw/main/app-release.apk)**
 
 ---
@@ -31,26 +31,16 @@ Choose either link to download directly to your Android device:
 
 ---
 
-## ✨ What's New in Version 1.7.2
+## ✨ What's New in Version 1.7.3
 
-- 📸 **Gallery Image Selection for Photo Challenges**:
-  - Pick challenge images directly from your device photo gallery with instant compression.
-  - No need to enter image URLs manually.
+- ⚡ **Snapchat-Style Chat Experience**:
+  - Send messages instantly using the keypad **Enter** key.
+  - Sleek chat bar with text input board on the left and neatly adjusted action icons on the right.
+  - Dedicated **Games Launcher** (`🎮`) button positioned next to stickers and voice notes.
 
-- 🎯 **Flexible Challenge Unlock Tasks**:
-  - Creators can choose between **Photo Proof**, **Voice Note**, or **Text Answer** tasks.
-  - Partners can upload photo proof or reply with voice/text to unlock blurred challenge photos.
+- 📸 **Photo Challenge Partner Proof Delivery**:
+  - Partner can pick their proof photo directly from their device gallery.
+  - Proof photo automatically renders in full clarity inside the unlocked challenge bubble and in the chat stream with full-screen viewer support.
 
-- 🎨 **High-Contrast White Theme & Black Typography**:
-  - Overhauled White and Light Glass themes with crisp, deep black text and high-contrast inputs.
-  - Eliminated washed-out white-on-white text across chats, dialogs, drawers, and headers.
-
-- 🔒 **Always-On Privacy Shield**:
-  - Screenshot & screen recording protection is permanently enabled by default for maximum couple privacy.
-
-- 👆 **Configurable Biometric Lock**:
-  - Optional Fingerprint & Face unlock can be enabled anytime in Privacy Settings.
-  - Fully customizable whenever you choose.
-
-- 💬 **Refined Chat Toolbar**:
-  - Cleaned up duplicate game icons near the keyboard for an uncluttered typing experience.
+- 🧼 **Clean Game Chat Stream**:
+  - Removed feed scrolling inside the game chat sheet so you can compose and send private games, photo challenges, and couple cards directly.
