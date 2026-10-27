@@ -4,11 +4,11 @@ Official production distribution repository for **Couple Diary** on Android.
 
 ---
 
-## 🚀 Latest Release: `v1.5.2`
+## 🚀 Latest Release: `v1.6.0`
 
 - **Filename**: [`app-release.apk`](./app-release.apk)
-- **Version Name**: `1.5.2`
-- **Version Code**: `15`
+- **Version Name**: `1.6.0`
+- **Version Code**: `17`
 - **Package Status**: Signed & Production Ready
 
 ---
@@ -17,7 +17,7 @@ Official production distribution repository for **Couple Diary** on Android.
 
 Choose either link to download directly to your Android device:
 
-1. **[Direct GitHub Release Asset Download (Recommended)](https://github.com/Aman-Rajput-10-09/couple-dairy-android-releases/releases/download/v1.5.2/app-release.apk)**
+1. **[Direct GitHub Release Asset Download (Recommended)](https://github.com/Aman-Rajput-10-09/couple-dairy-android-releases/releases/download/v1.6.0/app-release.apk)**
 2. **[Direct Raw Repository Download](https://github.com/Aman-Rajput-10-09/couple-dairy-android-releases/raw/main/app-release.apk)**
 
 ---
@@ -31,15 +31,18 @@ Choose either link to download directly to your Android device:
 
 ---
 
-## ✨ What's New in Version 1.5.2
+## ✨ What's New in Version 1.6.0
 
-- ❤️ **Instagram-Style Chat Reactions**:
-  - Reaction badges now overlap the bottom corner of the message bubble (bottom-right for sent, bottom-left for received) with elevation and smooth pills, matching Instagram DMs.
-  - **Double-Tap to Heart**: Double-tap any message or shared game card to instantly react with ❤️.
-  - **0ms Optimistic UI Updates**: Tapping a reaction in the action menu or double-tapping renders the reaction immediately.
-  - **Reaction Toggle**: Tapping the same reaction toggles it off seamlessly.
-  - Preserves shared game details when reacting to challenges.
-- 🗑️ **Long-Press Action Menu & Instant Item Deletion**:
-  - Long-press any item in your private chat (text messages, stickers, custom stickers, shared couple games, and voice notes) to open options.
-  - Delete messages, stickers, or shared games with optimistic UI updates and live database synchronization.
-  - Quick text copying and tap-to-react emojis directly inside the action menu.
+- 🔐 **Biometric Phone Lock (Fingerprint & Face Lock)**:
+  - Secure your diary and private chats with native Android Biometrics (Fingerprint / Face Recognition).
+  - Works alongside PIN lock with automatic prompt upon app launch or app resume from background.
+  - Supports decoy PIN camouflage defense while enabling seamless instant unlocking for device owners.
+- ⚡ **0ms Instant Chat & Silent Real-Time Sync**:
+  - Eliminated chat sluggishness with optimistic 0ms message delivery for text, stickers, and voice notes.
+  - Added continuous 2.5s silent background polling loop without screen flicker or full-screen loading spinners.
+  - Database queries indexed (`idx_cd_couple_chat_desc`, `idx_cd_chat_read`) and push notifications sent asynchronously.
+- 🎮 **Public vs Private Game Option**:
+  - When creating a game or question, choose whether to post **🌍 Public** (to community feed with category tags) or **🔒 Private** (directly into private couple chat with partner).
+  - Quick "+ Compose New Private Game 💕" action added directly into the chat share menu.
+- 💕 **18 New Romantic Public Games**:
+  - Added 18 new deep, romantic, and playful questions to Neon PostgreSQL database and public feed.
