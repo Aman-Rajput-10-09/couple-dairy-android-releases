@@ -4,11 +4,11 @@ Official production distribution repository for **Couple Diary** on Android.
 
 ---
 
-## 🚀 Latest Release: `v1.7.5`
+## 🚀 Latest Release: `v1.7.6`
 
 - **Filename**: [`app-release.apk`](./app-release.apk)
-- **Version Name**: `1.7.5`
-- **Version Code**: `23`
+- **Version Name**: `1.7.6`
+- **Version Code**: `24`
 - **Package Status**: Signed & Production Ready
 
 ---
@@ -17,7 +17,7 @@ Official production distribution repository for **Couple Diary** on Android.
 
 Choose either link to download directly to your Android device:
 
-1. **[Direct GitHub Release Asset Download (Recommended)](https://github.com/Aman-Rajput-10-09/couple-dairy-android-releases/releases/download/v1.7.5/app-release.apk)**
+1. **[Direct GitHub Release Asset Download (Recommended)](https://github.com/Aman-Rajput-10-09/couple-dairy-android-releases/releases/download/v1.7.6/app-release.apk)**
 2. **[Direct Raw Repository Download](https://github.com/Aman-Rajput-10-09/couple-dairy-android-releases/raw/main/app-release.apk)**
 
 ---
@@ -31,14 +31,14 @@ Choose either link to download directly to your Android device:
 
 ---
 
-## ✨ What's New in Version 1.7.5
+## ✨ What's New in Version 1.7.6
 
-- 🫧 **Buttery-Soft Chat Experience & Zero Duplication**:
-  - In-place optimistic resolution with clientTempId matching: completely eliminates duplicate message popping, flickering, and screen jumping.
-  - Zero-lag instant send with seamless resolution when server and sync acknowledge the message.
+- 🔒 **Cloudinary Photo Challenges & Secure Storage**:
+  - Locked photos and partner proofs are now saved securely into couple-isolated Cloudinary storage (`couple-dairy/{couple_id}/`).
+  - Strict couple-scoped routing ensures zero data mixing or unauthorized exposure between couples.
 
-- 🌊 **Fluid Spring Motion Animations**:
-  - Native Jetpack Compose physics-based spring animation (`animateItem`) on message bubbles for ultra-soft insertion, deletion, and layout glides.
+- 🔕 **In-Chat Notification Suppression**:
+  - Follows industry-standard chat behavior (like WhatsApp & Telegram): system notifications are automatically muted when you are actively inside the chat screen.
 
-- ⏱️ **Soft Delivery Indicators**:
-  - Soft sending clock indicator (`🕒`) that gently transitions into delivered single checkmark (`✓`) and seen cyan double checkmarks (`✓✓`).
+- 🛡️ **Zero Duplicate Notifications**:
+  - Atomic server mark-as-read and client-side deterministic deduplication guarantee that partner notifications never duplicate or double-ring.
