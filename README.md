@@ -4,11 +4,11 @@ Official production distribution repository for **Couple Diary** on Android.
 
 ---
 
-## 🚀 Latest Release: `v1.7.0`
+## 🚀 Latest Release: `v1.7.1`
 
 - **Filename**: [`app-release.apk`](./app-release.apk)
-- **Version Name**: `1.7.0`
-- **Version Code**: `18`
+- **Version Name**: `1.7.1`
+- **Version Code**: `19`
 - **Package Status**: Signed & Production Ready
 
 ---
@@ -17,7 +17,7 @@ Official production distribution repository for **Couple Diary** on Android.
 
 Choose either link to download directly to your Android device:
 
-1. **[Direct GitHub Release Asset Download (Recommended)](https://github.com/Aman-Rajput-10-09/couple-dairy-android-releases/releases/download/v1.7.0/app-release.apk)**
+1. **[Direct GitHub Release Asset Download (Recommended)](https://github.com/Aman-Rajput-10-09/couple-dairy-android-releases/releases/download/v1.7.1/app-release.apk)**
 2. **[Direct Raw Repository Download](https://github.com/Aman-Rajput-10-09/couple-dairy-android-releases/raw/main/app-release.apk)**
 
 ---
@@ -31,27 +31,26 @@ Choose either link to download directly to your Android device:
 
 ---
 
-## ✨ What's New in Version 1.7.0
+## ✨ What's New in Version 1.7.1
 
-- 🏆 **Couple League & Dynamic XP System**:
-  - Unified couple progression — both partners earn XP together to advance your couple rank.
-  - 6 Prestigious Leagues: *Initiate*, *Vanguard*, *Eclipse*, *Apex*, *Sovereign*, and *Immortal*.
-  - Weekly Top 10 Leaderboard for your current league + Global Legends leaderboard.
-  - Active couple streaks and interactive progress journey.
+- 📸 **Photo Challenges**:
+  - Send surprise photos with a task, question, or riddle for your partner.
+  - The photo stays blurred and only reveals once your partner completes the task!
 
-- 🛡️ **Anti-Screenshot & Privacy Shield**:
-  - New built-in privacy protection shield blocking screenshots, screen recording, and app switcher preview.
-  - Biometric authentication (fingerprint / face unlock) now strictly optional and only activates when enabled in settings.
+- 💕 **Matched Desires & Bucket List in Nav Bar**:
+  - Dedicated "Matched" tab right in your navigation bar.
+  - See all shared ideas, activities, and couple bucket list items you both agreed on!
 
-- 📸 **Temptation Lock Tease Challenges**:
-  - Share intimate blurred tease photos with a custom unlock task or confession for your partner.
-  - Includes a 2-second hold-to-peek feature with heartbeat haptic feedback. Fullscreen view unlocks only when the challenge is completed!
-  - Ability to delete your photos or challenges at any time.
+- 🎮 **Quick Game Launcher in Chat**:
+  - Game button moved right to the top corner of the chat for one-tap game sharing.
 
-- 🎴 **Secret Desires (Fantasy Roulette Cards)**:
-  - Intimate couple card game with private 3-way double-blind voting (*Must Do*, *Curious*, *Pass*).
-  - Mutual desires unlock seamlessly in chat with zero awkwardness or rejection.
-  - Create custom private cards for your partner or explore public cards.
+- 🏆 **Leaderboard Icon & Real Couple Standings**:
+  - Dedicated Trophy icon in the top bar to check leagues anytime.
+  - Standings now display real couple duos.
 
-- 🎨 **6 Aesthetic Themes**:
-  - Customize your look with 6 themes: *Black Glassy*, *Plain Black*, *White*, *Gray Glassy*, *Glassy White*, and *Amber Glassy*.
+- 🎨 **Enhanced White & Glassy Themes**:
+  - Polished high-contrast White theme and theme-adaptive navigation bar colors.
+  - Opaque frosted dialog popups with backdrop blur to eliminate text overlap.
+
+- 🛡️ **Cleaner Navigation**:
+  - Removed duplicate tabs from side drawer for a cleaner, organized experience.
