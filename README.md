@@ -33,12 +33,7 @@ Choose either link to download directly to your Android device:
 
 ## ✨ What's New in Version 1.7.6
 
-- 🔒 **Cloudinary Photo Challenges & Secure Storage**:
-  - Locked photos and partner proofs are now saved securely into couple-isolated Cloudinary storage (`couple-dairy/{couple_id}/`).
-  - Strict couple-scoped routing ensures zero data mixing or unauthorized exposure between couples.
-
-- 🔕 **In-Chat Notification Suppression**:
-  - Follows industry-standard chat behavior (like WhatsApp & Telegram): system notifications are automatically muted when you are actively inside the chat screen.
-
-- 🛡️ **Zero Duplicate Notifications**:
-  - Atomic server mark-as-read and client-side deterministic deduplication guarantee that partner notifications never duplicate or double-ring.
+- 🔒 **Enhanced Security & Privacy**: Stricter privacy protections and secure storage for your private couple memories and photo challenges.
+- ⚡ **Smoother Photo Challenges**: Faster image uploads, quicker partner proof delivery, and optimized loading times.
+- 🔔 **Smarter Notifications**: Fixed duplicate notifications and improved in-chat alert handling so you only get notified when you need to be.
+- 🛠️ **Bug Fixes & Performance**: General stability upgrades and performance improvements across the app.
